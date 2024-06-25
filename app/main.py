@@ -1,5 +1,5 @@
 import logging
-from app import utils
+from app import check_network_packages
 
 
 def main():
@@ -7,8 +7,10 @@ def main():
     logger = logging.getLogger(__name__)
 
     logger.info("Application started")
+
     # Your application logic here
-    utils.some_function()
+    check_network_packages.run_websocket_listener()
+
     logger.info("Application finished")
 
 
