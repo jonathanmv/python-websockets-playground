@@ -3,7 +3,7 @@
 import asyncio
 import websockets
 from websockets.server import serve
-from simple.logger import logger
+from common.logger import logger
 
 CONNECTIONS = set()
 

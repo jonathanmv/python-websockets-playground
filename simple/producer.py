@@ -3,7 +3,7 @@
 import argparse
 import asyncio
 import websockets
-from simple.logger import logger
+from common.logger import logger
 
 
 async def send_messages(websocket, messages_per_second):

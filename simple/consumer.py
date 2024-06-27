@@ -2,7 +2,7 @@
 
 import asyncio
 import websockets
-from simple.logger import logger
+from common.logger import logger
 
 
 async def listen_forever():
